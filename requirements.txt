@@ -1,0 +1,9 @@
+streamlit
+textblob
+nltk
+pandas
+numpy
+matplotlib
+statsmodels
+scikit-learn
+requests
