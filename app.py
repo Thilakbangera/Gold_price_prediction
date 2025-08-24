@@ -53,19 +53,6 @@ if news_articles:
 else:
     st.warning("No news available at the moment.")
 
-# 📊 Sentiment
-st.header("📊 Market Sentiment from News")
-sentiment_score = get_sentiment_score()
-if sentiment_score > 0.1:
-    sentiment_text = "Positive 😊"
-elif sentiment_score < -0.1:
-    sentiment_text = "Negative 😟"
-else:
-    sentiment_text = "Neutral 😐"
-st.metric("🧠 Average Sentiment", sentiment_text, f"{sentiment_score:.2f}")
-
-st.markdown("---")
-
 # 🤖 Tavily Q&A
 st.header("🤖 Ask Tavily About Gold")
 question = st.text_input("What do you want to know about gold?")
@@ -75,3 +62,4 @@ if st.button("Ask"):
         st.info(answer)
     else:
         st.warning("Please enter a question.")
+
