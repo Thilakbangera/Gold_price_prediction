@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.7",
+    "@heroicons/react": "^2.2.0",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.11.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.542.0",
+    "postcss": "^8.5.6",
+    "recharts": "^3.1.2",
+    "tailwindcss": "^4.1.12"
+  }
+}
